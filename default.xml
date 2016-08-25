@@ -5,6 +5,8 @@
            fetch="https://android.googlesource.com" />
   <remote  name="github"
            fetch="https://github.com/pine64-android" />
+  <remote  name="ayufan"
+           fetch="https://github.com/ayufan-pine64" />
   <default revision="refs/tags/android-5.1.1_r13"
            remote="aosp"
            sync-j="4" />
@@ -47,7 +49,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
+  <project path="device/google/atv" name="device/google/atv" groups="device" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
@@ -58,7 +60,7 @@
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
-  <project path="device/softwinner" name="device-softwinner" remote="github" revision="a64" groups="pdk" />
+  <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="a64" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -403,7 +405,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="packages-apps-QuickSearchBox" remote="github" revision="a64" />
-  <project path="packages/apps/Settings" name="packages-apps-Settings" remote="github" revision="a64" />
+  <project path="packages/apps/Settings" name="packages-apps-Settings" remote="ayufan" revision="a64" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="packages-apps-SoundRecorder" remote="github" revision="a64" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -411,7 +413,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
-  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
+  <project path="packages/apps/TvSettings" name="packages-apps-TvSettings" remote="ayufan" revision="a64" />
   <project path="packages/apps/UnifiedEmail" name="packages-apps-UnifiedEmail" remote="github" revision="a64" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -515,5 +517,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <project path="vendor/google" name="proprietary_vendor_google_atv" remote="ayufan" revision="lollipop" groups="pdk"/>
 
 </manifest>
