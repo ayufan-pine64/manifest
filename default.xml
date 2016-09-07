@@ -518,6 +518,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/google" name="proprietary_vendor_google_atv" remote="ayufan" revision="lollipop" groups="pdk"/>
+  <project path="vendor/google" name="proprietary_vendor_google_atv" remote="ayufan" revision="master" groups="pdk"/>
 
 </manifest>
