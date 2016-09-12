@@ -15,8 +15,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="art" groups="pdk" />
-  <project path="bionic" name="bionic" groups="pdk" />
+  <project path="art" name="art" remote="github" revision="a64" groups="pdk" />
+  <project path="bionic" name="bionic" remote="github" revision="a64" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="bootable-recovery" remote="github" revision="a64" groups="pdk" />
   <project path="cts" name="cts" remote="github" revision="a64" groups="cts,pdk-cw-fs" />
