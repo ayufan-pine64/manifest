@@ -61,7 +61,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="device/softwinner" name="device-softwinner" remote="ayufan" revision="a64" groups="pdk" />
-  <project path="device/pine64-common" name="device-pine64-common" remote="ayufan" revision="master" groups="pdk" />
+  <project path="device/pine64-common" name="device-pine64-common" remote="ayufan" revision="fixed-partitions" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
